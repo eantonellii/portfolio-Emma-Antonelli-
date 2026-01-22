@@ -24,16 +24,7 @@ background-color: black;
 
 }
 
-.sfondo-4{
-background-image: url(img/exastoria.webp);
 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  width: 100%;
-  height: 350px; /* oppure 500px */
-}
 
 
 
