@@ -1,287 +1,465 @@
-.sfondo-0{
+/* ===== SFONDI ===== */
+.sfondo-0 {
     background-color: black;
-    padding-left: 0px;
-    padding-bottom: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-   
+    padding: 0;
 }
 
-.sfondo-1{
+.sfondo-1 {
     background-color: black;
     padding-top: 60px;
-
-    
 }
-.sfondo-2{
+
+.sfondo-2 {
     background-color: white;
-    
-
-  width: 105%;
-}
-.sfondo-3{
-background-color: black;
-
+    width: 100%;
 }
 
+.sfondo-3 {
+    background-color: black;
+}
 
-
-
-
-
-.font-0{
-    font-family:'Encode Sans Expanded', sans-serif;
+/* ===== TIPOGRAFIA BASE ===== */
+.font-0 {
+    font-family: 'Encode Sans Expanded', sans-serif;
     font-size: 80px;
     color: rgb(255, 153, 28);
-    padding-top: 0px;
-
+    padding-top: 0;
 }
-.font-1{
+
+.font-1 {
     font-family: 'Encode Sans Expanded', sans-serif;
     font-size: 14px;
     color: white;
 }
-.font-2{
-    font-family: 'Encode Sans Expanded', sans-serif; 
+
+.font-2 {
+    font-family: 'Encode Sans Expanded', sans-serif;
     font-size: 14px;
     color: rgb(255, 35, 225);
     font-weight: 500;
 }
-.font-3{
+
+.font-3 {
     font-family: 'Encode Sans Expanded', sans-serif;
     font-size: 50px;
     font-weight: 700;
-    color:  rgb(255, 35, 225);
+    color: rgb(255, 35, 225);
 }
-.font-4{
-    font-family:'Encode Sans Expanded', sans-serif;
+
+.font-4 {
+    font-family: 'Encode Sans Expanded', sans-serif;
     font-size: 50px;
     font-weight: 500;
     line-height: 2;
     color: white;
 }
-.font-5{
-    font-family:'Encode Sans Expanded', sans-serif ;
+
+.font-5 {
+    font-family: 'Encode Sans Expanded', sans-serif;
     font-size: 14px;
     font-weight: 500;
-    line-height: 0,7;
+    line-height: 1.4;
     color: black;
 }
-.font-6{
-    font-family:'Encode Sans Expanded', sans-serif;
+
+.font-6 {
+    font-family: 'Encode Sans Expanded', sans-serif;
     font-size: 200px;
-    color:rgb(255, 153, 28);
+    color: rgb(255, 153, 28);
 }
-.font-8{
-    font-family:'Encode Sans Expanded', sans-serif;
+
+.font-7 {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 200px;
+    font-weight: 500;
+    color: #ff9f1c;
+    line-height: 1;
+}
+
+.font-8 {
+    font-family: 'Encode Sans Expanded', sans-serif;
     font-size: 80px;
     color: rgb(255, 35, 225);
     line-height: 130px;
     font-weight: 300;
 }
 
-.font-9{
-    font-family:'Encode Sans Expanded', sans-serif;
-    font-size:  14px;
+.font-9 {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 14px;
     font-weight: 300;
-    color: rgb(255, 35, 225) ;
+    color: rgb(255, 35, 225);
 }
+
+/* ===== HEADER ===== */
 header a {
-  color: rgb(255, 35, 225);
-  text-decoration: none;
+    color: rgb(255, 35, 225);
+    text-decoration: none;
 }
 
 header a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
-.video-vert{
+
+/* ===== VIDEO ===== */
+.video-vert {
     width: 100%;
     height: 550px;
-    border-radius: px;
 }
 
-
-
+/* ===== IMMAGINI ===== */
 .trio-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;   /* riempie senza deformare */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .trio-img > div {
-  height: 400px;       /* scegli tu l’altezza */
+    height: 400px;
 }
-.full-width-gallery {
-  width: 100vw;
 
+.full-width-gallery {
+    width: 100vw;
 }
 
 .full-width-gallery img {
-  width: 100%;
-  height: 420px;      /* stessa altezza */
-  object-fit: cover;
-  display: block;
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    display: block;
 }
 
-.img-1{
+.img-1 {
     height: 300px;
+    width: 100%;
+    object-fit: cover;
 }
 
-.img-2{
+.img-2 {
     height: 200px;
-}
-
-.descrizione {
-    font-family:'Encode Sans Expanded', sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    max-width: 420px;
+    width: 100%;
+    object-fit: cover;
 }
 
 img {
     display: block;
 }
 
+.descrizione {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 420px;
+}
 
-
-
+/* ===== LAYOUT SEZIONI ===== */
 .page {
-  background-color: black;
-  min-height: 100vh;
-  padding: 6rem 5vw;
-  overflow: hidden;
+    background-color: black;
+    min-height: 100vh;
+    padding: 6rem 5vw;
+    overflow: hidden;
 }
 
-/* RIGA */
 .row-layout {
-  display: flex;
-  align-items: center;
-  gap: 4rem;
-}
-
-/* POSTER */
-.poster img {
-  display: block;
-  width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
 }
 
 .poster {
-  max-width: 400px;
+    max-width: 400px;
 }
 
-/* NUMERO */
-.font-7 {
-  font-family:'Encode Sans Expanded', sans-serif ;
-  font-size:200px;
-  font-weight: 500;
-  color: #ff9f1c;
-  line-height: 1;
+.poster img {
+    display: block;
+    width: 100%;
 }
 
-/* DIDASCALIA */
 figcaption {
-  margin-top: 1rem;
-  font-size: 14px;
-  color:white;
-  font-family:'Encode Sans Expanded', sans-serif ;
-  font-weight: 500;
+    margin-top: 1rem;
+    font-size: 14px;
+    color: white;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-weight: 500;
 }
 
-
-
- * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.page {
-  min-height: 100vh;
-  background-color: black;
-  padding: 2rem;
-}
+/* ===== GRID LAYOUT ===== */
 .layout {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-auto-rows: min-content;
-  gap: 3rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: min-content;
+    gap: 3rem;
 }
+
 .letters {
-  grid-column: 1 / 8;
-  grid-row: 1;
+    grid-column: 1 / 8;
+    grid-row: 1;
 }
 
 .letters img {
-  width: 100%;
-  display: block;
-}
-.poster {
-  grid-column: 9 / 13;
-  grid-row: 1 / 3;
+    width: 100%;
+    display: block;
 }
 
-.poster img {
-  width: 100%;
-  display: block;
+.layout .poster {
+    grid-column: 9 / 13;
+    grid-row: 1 / 3;
 }
+
 .text {
-  grid-column: 1 / 7;
-  grid-row: 2;
-  font-size: 14px;
-  line-height: 1.4;
-  color: white;
-  font-family:'Encode Sans Expanded', sans-serif ;
+    grid-column: 1 / 7;
+    grid-row: 2;
+    font-size: 14px;
+    line-height: 1.4;
+    color: white;
+    font-family: 'Encode Sans Expanded', sans-serif;
 }
 
-
-
+/* ===== PROJECT CARDS ===== */
 .project-card {
-  position: relative;
-  overflow: hidden;
+    position: relative;
+    overflow: hidden;
 }
 
 .project-card img {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 100%;
 }
 
-.project-card {
-  position: relative;
-  overflow: hidden;
-}
-
-.project-card img {
-  display: block;
-  width: 100%;
-}
-
-/* overlay */
 .project-overlay {
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.65);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  opacity: 0;
-  transition: opacity 0.3s ease;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 .project-card:hover .project-overlay {
-  opacity: 1;
+    opacity: 1;
 }
 
-/* testo */
 .project-overlay p {
-  font-family: 'Encode Sans Expanded', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  color: rgb(255, 35, 225);
-  text-align: center;
-  padding: 1rem;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 35, 225);
+    text-align: center;
+    padding: 1rem;
 }
 
+/* ===== RESPONSIVE MOBILE ===== */
 
+/* Tablet e sotto (768px) */
+@media (max-width: 767px) {
+    
+    /* Header mobile */
+    header .row {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    header .col-lg-2 {
+        width: 100%;
+        margin: 0 !important;
+        padding: 0.5rem 0;
+    }
+    
+    .font-9 {
+        font-size: 12px;
+    }
+    
+    /* Titolo hero mobile */
+    .font-0 {
+        font-size: 40px;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    /* Intro section mobile */
+    .sfondo-1 {
+        padding-top: 30px;
+    }
+    
+    .font-1 {
+        font-size: 12px;
+        line-height: 1.6;
+        padding: 1rem;
+    }
+    
+    .font-2 {
+        font-size: 12px;
+        text-align: center !important;
+    }
+    
+    /* Skills mobile */
+    .font-3 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    /* University projects title */
+    .font-4 {
+        font-size: 24px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    
+    /* Video e immagini mobile */
+    .video-vert {
+        height: 400px;
+    }
+    
+    .img-1 {
+        height: 200px;
+        margin-bottom: 1rem;
+    }
+    
+    .img-2 {
+        height: 150px;
+    }
+    
+    .font-5 {
+        font-size: 12px;
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    /* Numero grande mobile */
+    .font-6 {
+        font-size: 80px;
+        text-align: center;
+    }
+    
+    .font-7 {
+        font-size: 80px;
+        text-align: center;
+    }
+    
+    /* Trio immagini mobile */
+    .trio-img > div {
+        height: 250px;
+        margin-bottom: 1rem;
+    }
+    
+    /* Galleria serigrafia mobile */
+    .full-width-gallery img {
+        height: 250px;
+    }
+    
+    .descrizione {
+        font-size: 12px;
+        padding: 1rem;
+        text-align: center;
+        max-width: 100%;
+    }
+    
+    /* Layout poster mobile */
+    .page {
+        padding: 2rem 1rem;
+    }
+    
+    .row-layout {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .poster {
+        max-width: 100%;
+    }
+    
+    figcaption {
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    /* Grid layout mobile */
+    .layout {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .letters,
+    .layout .poster,
+    .text {
+        grid-column: 1 / -1;
+    }
+    
+    .text {
+        font-size: 12px;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    /* Personal projects mobile */
+    .font-8 {
+        font-size: 36px;
+        line-height: 1.2;
+        text-align: center;
+    }
+    
+    .project-overlay p {
+        font-size: 14px;
+        padding: 0.5rem;
+    }
+    
+    /* Rimuovi offset su mobile */
+    [class*="offset-"] {
+        margin-left: 0 !important;
+    }
+}
 
+/* Mobile piccolo (576px e sotto) */
+@media (max-width: 575px) {
+    .font-0 {
+        font-size: 32px;
+    }
+    
+    .font-3 {
+        font-size: 24px;
+    }
+    
+    .font-4 {
+        font-size: 20px;
+    }
+    
+    .font-6,
+    .font-7 {
+        font-size: 60px;
+    }
+    
+    .font-8 {
+        font-size: 28px;
+    }
+    
+    .video-vert {
+        height: 300px;
+    }
+    
+    .trio-img > div {
+        height: 200px;
+    }
+    
+    .project-overlay p {
+        font-size: 12px;
+    }
+}
+
+/* Tablet landscape (992px e sotto) */
+@media (max-width: 991px) {
+    .font-0 {
+        font-size: 60px;
+    }
+    
+    .font-4 {
+        font-size: 36px;
+    }
+    
+    .font-6,
+    .font-7 {
+        font-size: 120px;
+    }
+}
