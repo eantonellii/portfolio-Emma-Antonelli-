@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 145.15 141.94">
+  <!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 123)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #ff991c;
+      }
+
+      .st0, .st1, .st2 {
+        isolation: isolate;
+      }
+
+      .st0, .st2 {
+        font-family: EncodeSansExpanded-SemiBold, 'Encode Sans Expanded';
+        font-size: 60px;
+        font-weight: 600;
+      }
+
+      .st2 {
+        fill: #fa23f7;
+      }
+    </style>
+  </defs>
+  <circle cx="57.9" cy="57.9" r="57.9"/>
+  <g class="st1">
+    <text class="st0" transform="translate(20.61 74.76)"><tspan x="0" y="0">e</tspan></text>
+    <text class="st2" transform="translate(57.33 74.76)"><tspan x="0" y="0">a</tspan></text>
+  </g>
+</svg>
