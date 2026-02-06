@@ -21,7 +21,7 @@
 /* ===== TIPOGRAFIA BASE ===== */
 .font-0 {
     font-family: 'Encode Sans Expanded', sans-serif;
-    font-size: 70 px;
+    font-size: 70px;
     color: rgb(255, 153, 28);
     padding-top: 0;
 }
@@ -462,4 +462,14 @@ figcaption {
     .font-7 {
         font-size: 120px;
     }
+}
+
+@media only screen and (max-width:480px){
+
+.font-0 {
+
+font-size: 40px;
+padding-top: 50px;
+}
+
 }
